@@ -1,2 +1,2 @@
-# PrettyBraids
-Event Planning Site
+# Pretty Braids
+A Hair Event Planning Site
