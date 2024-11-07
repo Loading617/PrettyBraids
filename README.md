@@ -3,4 +3,4 @@
 </p>
 
 # Pretty Braids
-A Hair Event Planning Site
+A Hair Book Site
