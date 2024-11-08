@@ -10,23 +10,17 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    
-        <header>
-            <?php echo "Welcome to Pretty Braids!!"; ?>
-            <?php echo "Here at Pretty Braids, Where we make pretty girls feel pretty."; ?>
-        </header>
         
             <nav>
             <ul>
             <li><a href="home.php">Home</a></li>
             <li><a href="prices.php">Prices</a></li>
             <li><a href="bookus.php">Book Us</a></li>
-            <li><img src="prettybraids.png" alt="Pretty Braids" width="40" height="40"></li>
+            <li><img src="prettybraids.png" alt="Pretty Braids" width="200" height="200"></li>
             <li><a href="myclients.php">My Clients</a></li>
             <li><a href="about.php">About</a></li>
             </ul>
         </nav>
-        
-        
+                
 </body>
 </html>
