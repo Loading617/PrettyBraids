@@ -21,6 +21,8 @@
             <li><a href="about.php">About</a></li>
             </ul>
         </nav>
-                
+
+            <?php echo "<h1>Pretty Braids</h1>"; ?>
+            <?php echo "<h2>Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</h2>"; ?>
 </body>
 </html>
