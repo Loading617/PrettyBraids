@@ -30,7 +30,7 @@
         />
       </div>
     </nav>
-      <h1>Pretty Braids</h1>
-      <h2>Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</h2>
+      <?php echo "<h1>Pretty Braids</h1>"; ?>
+      <?php echo "<h2>Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</h2>"; ?>
 </body>
 </html>
