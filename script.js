@@ -21,3 +21,14 @@ dateElem.setAttribute ("date", time)
 starttimeElem.onchange = function() {
     endtimeElem.setAttribute ("min", this.value)
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Smooth Scrolling
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    });
