@@ -74,7 +74,7 @@ body {
  
  .nav-links a:hover,
  .nav-links a.active {
-   color: #a5d8ff;
+   color: #ff00b4;
  }
  
  .logo {
@@ -97,7 +97,7 @@ body {
    display: block;
    width: 0;
    height: 2px;
-   background: #a5d8ff;
+   background: #ff00b4;
    transition: width 0.3s;
  }
  
