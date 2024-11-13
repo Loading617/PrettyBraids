@@ -45,7 +45,7 @@
                     <input type="number" name="number" id="number" placeholder="Write your number here..." required>
                 </div>
                 <div id="submit">
-                    <input type="submit" value="SUBMIT" id="submit">
+                    <input type="submit" value="Book with Pretty Braids" id="Book with Pretty Braids">
                 </div>
 
 
