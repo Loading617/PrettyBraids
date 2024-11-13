@@ -12,7 +12,7 @@
 <body class="main_bg">
     <div class="form">
         <div class="form-text">
-            <h1><span><img src="prettybraids.png" alt="Pretty Braids Logo"></span>Book Now <span><img src="prettybraids.png" alt="Pretty Braids Logo"></span></h1>
+            <?php echo "<h1><span><img src="prettybraids.png" alt="Pretty Braids Logo"></span>Book Now <span><img src="prettybraids.png" alt="Pretty Braids Logo"></span></h1>"; ?>
         </div>
             <form action="script.js" method="get">
                 <div class="form-group">
