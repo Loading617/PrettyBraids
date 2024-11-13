@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book Us — Pretty Braids</title>
+<title>Book Us — Pretty Braids</title>
+<meta charset="UTF-8">
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge Webkit, Chrome= Edge">
+<link rel="icon" type="image/x-icon" href="prettybraids.ico">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="script.js"></script>
 </head>
-
 <body class="main_bg">
     <div class="form">
         <div class="form-text">
-            <?php echo "<h1><span><img src="prettybraids.png" alt="Pretty Braids Logo"></span>Book Now <span><img src="prettybraids.png" alt="Pretty Braids Logo"></span></h1>"; ?>
+            <h1><span><img src="prettybraids.png" alt="Pretty Braids Logo"></span>Book Now <span><img src="prettybraids.png" alt="Pretty Braids Logo"></span></h1>
         </div>
             <form action="script.js" method="get">
                 <div class="form-group">
