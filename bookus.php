@@ -9,6 +9,31 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script type="text/javascript" src="script.js"></script>
 </head>
+    
+<nav class="navbar">
+      <ul class="nav-links">
+        <div class="nav-links-left">
+          <li><a href="home.php">Home</a></li>
+          <li><a href="prices.php">Prices</a></li>
+          <li><a href="bookus.php">Book Us</a></li>
+        </div>
+        <div class="nav-links-right">
+          <li><a href="myclients.php">My Clients</a></li>
+          <li><a href="about.php">About</a></li>
+        </div>
+      </ul>
+      <div class="logo">
+        <img
+          src="prettybraids.png"
+          alt="Pretty Braids Logo"
+        />
+      </div>
+    </nav>
+
+     <main>
+      <h1>Pretty Braids</h1>
+      <p>Book your appointment with Pretty Braids today. We are here to make your hair look and feel amazing.</p>
+      </main>
 <body class="main_bg">
     <div class="form">
         <div class="form-text">
