@@ -6,6 +6,6 @@
   <title>About — Pretty Braids</title>
 </head>
 <body>
-  
+<?php echo "<h1>About</h1>"; ?>  
 </body>
 </html>
