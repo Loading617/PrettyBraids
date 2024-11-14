@@ -6,6 +6,6 @@
   <title>My Clients — Pretty Braids</title>
 </head>
 <body>
-  
+<?php echo "<h1>Clients</h1>"; ?>  
 </body>
 </html>
