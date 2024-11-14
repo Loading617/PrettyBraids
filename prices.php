@@ -6,6 +6,6 @@
     <title>Prices — Pretty Braids</title>
 </head>
 <body>
-    
+<?php echo "<h1>Pretty Braids: Prices</h1>"; ?>    
 </body>
 </html>
