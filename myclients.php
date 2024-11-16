@@ -28,7 +28,7 @@
     </nav>
      <main>
       <?php echo "<h1 style="color: #ff00b4">My Clients: Pretty Braids</h1>"; ?>
-      <?php echo "<h2 style="color: #ff00b4">Here are my Pretty Braiders!</h2>"; ?>
+      <?php echo "<p style="color: #ff00b4">Here are my Pretty Braiders!</p>"; ?>
       </main>
 </body>
 </html>
