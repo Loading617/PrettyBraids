@@ -31,8 +31,8 @@
       </div>
     </nav>
       <main>
-      <h1 style="color: #ff00b4">Pretty Braids</h1>
-      <h2 style="color: #ff00b4">Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</h2>
+      <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
+      <?php echo "<h2 style="color: #ff00b4">Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</h2>"; ?>
       </main>
 </body>
 </html>
