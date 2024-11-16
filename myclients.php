@@ -6,6 +6,29 @@
   <title>My Clients: Pretty Braids</title>
 </head>
 <body>
-<?php echo "<h1>Clients</h1>"; ?>  
+    
+<nav class="navbar">
+      <ul class="nav-links">
+        <div class="nav-links-left">
+          <li><a href="home.php">Home</a></li>
+          <li><a href="prices.php">Prices</a></li>
+          <li><a href="bookus.php">Book Us</a></li>
+        </div>
+        <div class="nav-links-right">
+          <li><a href="myclients.php">My Clients</a></li>
+          <li><a href="about.php">About</a></li>
+        </div>
+      </ul>
+      <div class="logo">
+        <img
+          src="prettybraids.png"
+          alt="Pretty Braids Logo"
+        />
+      </div>
+    </nav>
+     <main>
+      <?php echo "<h1 style="color: #ff00b4">My Clients: Pretty Braids</h1>"; ?>
+      <?php echo "<h2 style="color: #ff00b4">Here are my Pretty Braiders!</h2>"; ?>
+      </main>
 </body>
 </html>
