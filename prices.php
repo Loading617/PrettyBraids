@@ -30,7 +30,7 @@
     </nav>
      <main>
       <?php echo "<h1 style="color: #ff00b4">Prices</h1>"; ?>
-      <?php echo "<h2 style="color: #ff00b4"></h2>"; ?>
+      <?php echo "<p style="color: #ff00b4"></p>"; ?>
       </main>
 </body>
 </html>
