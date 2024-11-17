@@ -65,3 +65,4 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(`Date: ${date.value}`);
     console.log(`Something Else: ${somethingelse.value}`);
     form.reset();
+  });      
