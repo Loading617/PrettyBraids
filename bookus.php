@@ -31,7 +31,7 @@
     </nav>
 
      <main>
-      <?php echo "<h1>Pretty Braids</h1>"; ?>
+      <?php echo "<h1>Book Us: Pretty Braids</h1>"; ?>
       <?php echo "<p>Book your appointment with Pretty Braids today. We are here to make your hair look and feel amazing.</p>"; ?>
       </main>
 <body class="main_bg">
