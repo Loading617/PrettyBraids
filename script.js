@@ -3,6 +3,7 @@ const name = document.querySelector('#name');
 const email = document.querySelector('#email');
 const tel = document.querySelector('#tel');
 const date = document.querySelector('#date');
+const starttime = document.querySelector('time');
 
 document.addEventListener("DOMContentLoaded", function () {
     // Smooth Scrolling
