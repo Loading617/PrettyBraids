@@ -7,7 +7,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge Webkit, Chrome= Edge">
 <link rel="icon" type="image/x-icon" href="prettybraids.ico">
 <link rel="stylesheet" type="text/css" href="styles.css">
-<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     
