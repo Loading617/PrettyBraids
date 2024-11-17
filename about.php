@@ -32,8 +32,8 @@
       </div>
     </nav>
      <main>
-      <h1 style="color: #ff00b4">Pretty Braids</h1>
-      <p style="color: #ff00b4"></p>
+      <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
+      <?php echo "<p style="color: #ff00b4"></p>"; ?>
       </main>
 </body>
 </html>
