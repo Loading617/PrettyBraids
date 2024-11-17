@@ -3,8 +3,9 @@
 <head>
 <title>Prices: Pretty Braids</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="image/x-icon" href="prettybraids.ico">
+<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge Webkit, Chrome= Edge">
+<link rel="icon" type="image/x-icon" href="prettybraids.ico">
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
