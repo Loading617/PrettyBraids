@@ -32,8 +32,9 @@
       </div>
     </nav>
      <main>
-      <?php echo "<h1 style="color: #ff00b4">About: Pretty Braids</h1>"; ?>
+      <?php echo "<h1 style="color: #ff00b4">About</h1>"; ?>
       <?php echo "<p style="color: #ff00b4"></p>"; ?>
+      <img style="vertical-align: middle center center center" src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400" />
       </main>
 </body>
 </html>
