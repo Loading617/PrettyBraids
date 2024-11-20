@@ -34,91 +34,49 @@
      <main>
       <?php echo "<h1 style="color: #ff00b4">My Clients</h1>"; ?>
       <?php echo "<p style="color: #ff00b4">Here are my Pretty Braiders!</p>"; ?>
-      <div style="overflow: hidden">
-    <div class="slider-video">
-        <div class="slider-video-aspect">
-            <div class="slider-video-scroll">
-                
-                <div class="slider-video-item">
-                    <div class="slider-video-pic" style="background-image: url('.jpg')">
-                      <div class="slider-video-caption">
-                      Smeduim straight backs w/ design 🥰
-                      </div>
-                    </div>
-                    <div class="slider-video-play">
-                        <button class="slider-video-close">&times;</button>
-                        <iframe width="420" height="315"
-                            src="https://www.instagram.com/p/Cwx2i6UuCbK/">
-                        </iframe>
-                    </div>
-                </div>
-                
-                <div class="slider-video-item">
-                    <div class="slider-video-pic" style="background-image: url('.jpg')">
-                      <div class="slider-video-caption">
-                          
-                      </div>
-                    </div>
-                    <div class="slider-video-play">
-                        <button class="slider-video-close">&times;</button>
-                        <iframe width="420" height="315"
-                            src="https://www.instagram.com/p/CvS2N6BtHF8/">
-                        </iframe>
-                    </div>
-                </div>
-
-                
-                <div class="slider-video-item">
-                    <div class="slider-video-pic" style="background-image: url('.jpg')">
-                      <div class="slider-video-caption">
-                      Quick style before the cookout!!!
-                      </div>
-
-                    </div>
-                    <div class="slider-video-play">
-                        <button class="slider-video-close">&times;</button>
-                        <iframe width="420" height="315"
-                            src="https://www.instagram.com/p/CuKTNm5PBrC/">
-                        </iframe>
-                    </div>
-                </div>
-              
-              
-              <div class="slider-video-item">
-                    <div class="slider-video-pic" style="background-image: url('.jpg')">
-                      <div class="slider-video-caption">
-                      Knotless Box Braids
-                      </div>
-
-                    </div>
-                    <div class="slider-video-play">
-                        <button class="slider-video-close">&times;</button>
-                        <iframe width="420" height="315"
-                            src="https://www.instagram.com/p/CuLHZjePKpP/">
-                        </iframe>
-                    </div>
-                </div>
-
-                <div class="slider-video-item">
-                    <div class="slider-video-pic" style="background-image: url('.jpg')">
-                      <div class="slider-video-caption">
-                          
-                      </div>
-
-                    </div>
-                    <div class="slider-video-play">
-                        <button class="slider-video-close">&times;</button>
-                        <iframe width="420" height="315"
-                            src="https://www.instagram.com/p/Cp3ws6at2UQ/">
-                        </iframe>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <button class="slider-video-left"></button>
-        <button class="slider-video-right"></button>
-    </div>
+<div class="owl-carousel video-section">
+    <div class="item">
+      <div>
+    <video class="js-player" crossorigin playsinline poster=".jpg">
+			<source src=".mp4" type="video/mp4" size="720">
+        </video>
+</div>
+  </div>
+      <div class="item">
+      <div>
+      <video class="js-player" crossorigin playsinline poster=".jpg">
+			<source src=".mp4" type="video/mp4" size="720">
+        </video>
+      </div>
+  </div>
+      <div class="item">
+      <div>
+      <video class="js-player" crossorigin playsinline poster=".jpg">
+			<source src="" type="video/mp4" size="720">
+        </video>
+      </div>
+  </div>
+  <div class="item">
+      <div>
+    <video class="js-player" crossorigin playsinline poster=".jpg">
+			<source src=".mp4" type="video/mp4" size="720">
+        </video>
+</div>
+  </div>
+      <div class="item">
+      <div>
+      <video class="js-player" crossorigin playsinline poster=".jpg">
+			<source src=".mp4" type="video/mp4" size="720">
+        </video>
+      </div>
+  </div>
+      <div class="item">
+      <div>
+      <video class="js-player" crossorigin playsinline poster=".jpg">
+			<source src=".mp4" type="video/mp4" size="720">
+        </video>
+      </div>
+  </div>
 </div>
       </main>
 </body>
