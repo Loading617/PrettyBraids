@@ -52,44 +52,34 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 50);
 });
 
-// Video Slider
-$('.owl-carousel').owlCarousel({
-    stagePadding: 200,
-    loop:true,
-    margin:10,
-    items:1,
-    nav:true,
-  responsive:{
-        0:{
-            items:1,
-            stagePadding: 60
-        },
-        600:{
-            items:1,
-            stagePadding: 100
-        },
-        1000:{
-            items:1,
-            stagePadding: 200
-        },
-        1200:{
-            items:1,
-            stagePadding: 250
-        },
-        1400:{
-            items:1,
-            stagePadding: 300
-        },
-        1600:{
-            items:1,
-            stagePadding: 350
-        },
-        1800:{
-            items:1,
-            stagePadding: 400
-        }
-    }
-})
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {  
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i,
+      x = document.getElementsByClassName("video-slide"),
+      y = document.getElementsByTagName("video");
+  
+  if (n > x.length) {
+    slideIndex = 1
+  }
+  
+  if (n < 1) {
+    slideIndex = x.length
+  }
+  
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    y[i].pause();
+  }
+  
+  x[slideIndex-1].style.display = "block";
+  
+}
 
 var playerSettings = {
       controls : ['play-large'],
