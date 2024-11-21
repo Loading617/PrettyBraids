@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 50);
 });
 
-var slideIndex = 1;
+var slideIndex = 5;
 showDivs(slideIndex);
 
 function plusDivs(n) {  
