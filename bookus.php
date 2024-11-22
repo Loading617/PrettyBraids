@@ -34,7 +34,7 @@
     <div class="form">
         <div class="form-text">
             <?php echo "<h1><span><img src="prettybraids.png" alt="Pretty Braids Logo" width="32" height="32"></span>Book with Pretty Braids<span><img src="prettybraids.png" alt="Pretty Braids Logo" width="32" height="32"></span></h1>"; ?>
-            <?php echo "<p><span><img src="prettybraids.png" alt="Pretty Braids Logo" width="32" height="32"></span>Book your appointment with Pretty Braids today. We are here to make your braids look and feel amazing.<span><img src="prettybraids.png" alt="Pretty Braids Logo" width="32" height="32"></span></p>"; ?>
+            <?php echo "<p>Book your appointment with Pretty Braids today. We are here to make your braids look and feel amazing.</p>"; ?>
         </div>
         <div class="book-form"></div>
             <form action="script.js" method="get">
