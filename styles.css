@@ -309,6 +309,9 @@ body {
 .form-text h1 span img{
    margin: 0 10px;
 }
+.form-text p span img{
+   margin: 0 10px;
+}
 .form-text h1{
    color: #fff;
    font-family: Georgia, "Times New Roman";
