@@ -329,10 +329,11 @@ body{
  }
  .form{
    width: 650px;
+   background-color: rgb(0, 0, 0);
 }
 .form-text{
    text-align: center;
-   margin: 0 0 40px 0;
+   margin: 40px 0;
 }
 .form-text h1 span img{
    margin: 0 10px;
