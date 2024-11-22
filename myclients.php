@@ -33,8 +33,8 @@
     </nav>
      <main>
       <div class="container">
-      <?php echo "<h1 style="color: #ff00b4">My Clients</h1>"; ?>
-      <?php echo "<p style="color: #ff00b4">Here are my Pretty Braiders!</p>"; ?>
+      <h1 style="color: #ff00b4">My Clients</h1>
+      <p style="color: #ff00b4">Here are my Pretty Braiders!</p>
       <div class="video-container">
   <a class="video-slider, videobox">
     <div class="video-slide">
@@ -51,10 +51,12 @@
       <video controls>
         <source src="/vids/Snapinsta.app_video_924C9E9A1829538A0731792AD36C4DA9_video_dashinit.mp4" type="video/mp4">
       </video>
+      </div>
       <div class="video-slide">
       <video controls>
         <source src="/vids/Snapinsta.app_video_7F4FC3B9B96B90F404B93826B8E8E09A_video_dashinit.mp4" type="video/mp4">
       </video>
+      </div>
       <div class="video-slide">
       <video controls>
         <source src="/vids/Snapinsta.app_video_5B4A8826E68F0D14AE070412D6455FBD_video_dashinit.mp4" type="video/mp4">
@@ -65,7 +67,6 @@
 
   <button class="video-slider-btn left-side" onclick="plusDivs(-1)">&#10094;</button>
   <button class="video-slider-btn right-side" onclick="plusDivs(1)">&#10095;</button>
-  </div>
 </div>
 </div>
       </main>
