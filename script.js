@@ -65,7 +65,7 @@ function showDivs(n) {
       y = document.getElementsByTagName("video");
   
   if (n > x.length) {
-    slideIndex = 1
+    slideIndex = 5
   }
   
   if (n < 1) {
