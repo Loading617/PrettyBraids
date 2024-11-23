@@ -391,14 +391,14 @@ body{
 }
 #submit input{
    font-family: "Dejavu Sans", "Times New Roman";
-   width: 200px;
+   width: 300px;
    background-color: magenta !important;
    color: black !important;
    transition: all .3s;
 }
 #submit input:hover{
    font-family: "Dejavu Sans", "Times New Roman";
-   width: 200px;
+   width: 300px;
    background-color: black !important;
    color: #fff !important;
 }
