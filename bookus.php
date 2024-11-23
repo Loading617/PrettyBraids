@@ -30,39 +30,33 @@
       </div>
     </nav>
 
-     <body class="main_bg">
+<body class="main_bg">
     <div class="form">
+    <form action="script.js" method="get">
         <div class="form-text">
             <?php echo "<h1><span><img src="prettybraids.png" alt="Pretty Braids Logo" width="32" height="32"></span>Book with Pretty Braids<span><img src="prettybraids.png" alt="Pretty Braids Logo" width="32" height="32"></span></h1>"; ?>
             <?php echo "<p>Book your appointment with Pretty Braids today. We are here to make your braids look and feel amazing.</p>"; ?>
         </div>
-        <div class="book-form"></div>
-            <form action="script.js" method="get">
-                <div>
-                    <span>Your full name:</span>
-                    <input type="text" name="name" id="name" placeholder="" required>
+                <div class="main-form">
+                    <div>
+                    <span>Your Name:</span>
+                    <input type="text" name="name" id="name" placeholder="Barbara Moore" required>
                 </div>
                 <div>
                     <span>Your email:</span>
-                    <input type="email" name="name" id="name" placeholder="" required> 
+                    <input type="email" name="name" id="name" placeholder="barbaramoore941@gmail.com" required> 
                 </div>
                 <div>
                     <span>What time:</span>
-                    <input type="text" name="time" id="time" placeholder="Time" required>
+                    <input type="time" name="time" id="time" placeholder="8:00 pm" required>
                 </div>
                 <div>
                     <span>Date:</span>
-                    <input type="date" name="date" id="date" placeholder="date" required>
-                </div>
-                <div>
-                    <span>Phone Number:</span>
-                    <input type="number" name="number" id="number" placeholder="Write your number here..." required>
+                    <input type="date" name="date" id="date" placeholder="Thursday, May 20, 2024" required>
                 </div>
                 <div id="submit">
                     <input type="submit" value="Book with Pretty Braids" id="Book with Pretty Braids">
                 </div>
-
-
             </form>
         </div>
     </div>
