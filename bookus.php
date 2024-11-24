@@ -48,11 +48,11 @@
                 </div>
                 <div>
                     <span>What time:</span>
-                    <input type="time" name="time" id="time" placeholder="8:00 pm" required>
+                    <input type="time" name="time" id="time" required>
                 </div>
                 <div>
                     <span>Date:</span>
-                    <input type="date" name="date" id="date" placeholder="Thursday, May 20, 2024" required>
+                    <input type="date" name="date" id="date" required>
                 </div>
                 <div id="submit">
                     <input type="submit" value="Book with Pretty Braids" id="Book with Pretty Braids">
