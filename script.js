@@ -52,62 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 50);
 });
 
-var slideIndex = 5;
-showDivs(slideIndex);
-
-function plusDivs(n) {  
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i,
-      x = document.getElementsByClassName("video-slide"),
-      y = document.getElementsByTagName("video");
-  
-  if (n > x.length) {
-    slideIndex = 1
-  }
-  
-  if (n < 1) {
-    slideIndex = x.length
-  }
-  
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-    y[i].pause();
-  }
-  
-  x[slideIndex-1].style.display = "block";
-  
-}
-
-var playerSettings = {
-      controls : ['play-large'],
-      fullscreen : { enabled: false},
-      resetOnEnd : true,
-      hideControls  :true,
-  clickToPlay:true,
-      keyboard : false,
-    }
-
-const players = Plyr.setup('.js-player', playerSettings);
-
- players.forEach(function(instance,index) {
-            instance.on('play',function(){
-                players.forEach(function(instance1,index1){
-                  if(instance != instance1){
-                        instance1.pause();
-                    }
-                });
-            });
-        });
-
-$('.video-section').on('translated.owl.carousel', function (event) {
-  players.forEach(function(instance,index1){
-                  instance.pause();
-                });
-});
-
   form.addEventListener("submit", event => {
     event.preventDefault()
     console.log(`Form submitted to ${form.action}`);
