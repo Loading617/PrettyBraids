@@ -112,12 +112,7 @@ videoContainer.addEventListener("click", (event) => {
     console.log(`Form submitted to ${form.action}`);
     console.log(`Name: ${name.value}`);
     console.log(`Email: ${email.value}`);
-    console.log(`Phone: ${tel.value}`);
-    console.log(`Participants: ${participants.value}`);
-    console.log(`Event Type: ${eventtype.value}`);
-    console.log(`Start Time: ${starttime.value}`);
-    console.log(`End Time: ${endtime.value}`);
+    console.log(`What Time: ${whattime.value}`);
     console.log(`Date: ${date.value}`);
-    console.log(`Something Else: ${somethingelse.value}`);
     form.reset();
   });      
