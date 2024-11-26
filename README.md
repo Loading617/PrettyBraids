@@ -3,4 +3,4 @@
 </p>
 
 # Pretty Braids
-A Hair Book Site
+A Booking Site focucsed on Hair
