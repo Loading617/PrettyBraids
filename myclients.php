@@ -35,21 +35,76 @@
       <div class="container">
       <?php echo "<h1 style="color: #ff00b4">My Clients</h1>" ?>
       <?php echo "<p style="color: #ff00b4">Here are my Pretty Braiders!</p>"; ?>
-      <div class="container">
-      <h1 style="color: #ff00b4">My Clients</h1>
-      <p style="color: #ff00b4">Here are my Pretty Braiders!</p>
-      <div class="video-container">
-      <div class="video-slider">
-    <div class="arrow arrow-left fa-solid fa-angle-left"></div>
-    <div class="arrow arrow-right fa-solid fa-angle-right"></div>
-    <div class="videos">
-      <video src="vids/Snapinsta.app_video_D34D8538A3AEBF98A44214536EECC2B5_video_dashinit.mp4" controls="controls">Smeduim straight backs w/ design 🥰</video>
-      <video src="vids/Snapinsta.app_video_7F4FC3B9B96B90F404B93826B8E8E09A_video_dashinit.mp4" controls="controls">Smedium knotless 🔥🔥 Appointments available!!</video>
-      <video src="vids/Snapinsta.app_video_924C9E9A1829538A0731792AD36C4DA9_video_dashinit.mp4" controls="controls">Quick style before the cookout!!!</video>
-      <video src="vids/Snapinsta.app_video_5B4A8826E68F0D14AE070412D6455FBD_video_dashinit.mp4" controls="controls">Knotless Box Braids</video>
-      <video src="vids/Snapinsta.app_video_1443B1E471B1D4C95DF118B3494DB887_video_dashinit.mp4" controls="controls"></video>
-      </div>
-  </div>
-  <script src="https://kit.fontawesome.com/a7731f7ef8.js"></script>
+      <div style="height: 100%; overflow-x: hidden; text-align: center">
+			<div class="csslider infinity" id="slider1">
+			<input type="radio" name="slides" checked="checked" id="slides_1"/>
+			<input type="radio" name="slides" id="slides_2"/>
+			<input type="radio" name="slides" id="slides_3"/>
+			<input type="radio" name="slides" id="slides_4"/>
+			<input type="radio" name="slides" id="slides_5"/>
+				<ul>
+          <li>
+                        <?php echo "<p>
+				<iframe width="100%" height="400px" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</p>"; ?>
+					</li>
+					<li>
+						<?php echo "<p>
+            <iframe width="100%" height="400px" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</p>"; ?>
+					</li>
+					<li>
+						<?php echo "<p>
+						<iframe width="100%" height="400px" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</p>"; ?>
+					</li>
+          <li>
+						<?php echo "<p>
+						<iframe width="100%" height="400px" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</p>"; ?>
+					</li>
+					<li>
+            			<?php echo "<p>
+						<iframe width="100%" height="400px" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</p>"; ?>
+					</li>
+					<li>
+						
+						<?php echo "<p>
+						<video controls preload>
+						<source src="" />
+						</video> 
+						</p>"; ?>
+					</li>
+          <li>
+						<?php echo "<p>
+						<video controls preload>
+						<source src="" />
+						</video> 
+						</p>"; ?>
+					</li>
+				</ul>
+					<div class="arrows">
+						<label for="slides_1"></label>
+						<label for="slides_2"></label>
+						<label for="slides_3"></label>
+						<label for="slides_4"></label>
+						<label for="slides_5"></label>
+						<label class="goto-first" for="slides_1"></label>
+						<label class="goto-last" for="slides_5"></label>
+					</div>
+					<div class="navigation"> 
+						<div>
+							<label for="slides_1"></label>
+							<label for="slides_2"></label>
+							<label for="slides_3"></label>
+							<label for="slides_4"></label>
+							<label for="slides_5"></label>
+						</div>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
 </body>
 </html>
