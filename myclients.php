@@ -45,27 +45,27 @@
 				<ul>
           <li>
                         <?php echo "<p>
-				<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_D34D8538A3AEBF98A44214536EECC2B5_video_dashinit.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+				<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_D34D8538A3AEBF98A44214536EECC2B5_video_dashinit.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						</p>"; ?>
 					</li>
 					<li>
 						<?php echo "<p>
-            <iframe width="100%" height="400px" src="vids/Snapinsta.app_video_7F4FC3B9B96B90F404B93826B8E8E09A_video_dashinit.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" height="400px" src="vids/Snapinsta.app_video_7F4FC3B9B96B90F404B93826B8E8E09A_video_dashinit.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						</p>"; ?>
 					</li>
 					<li>
 						<?php echo "<p>
-						<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_924C9E9A1829538A0731792AD36C4DA9_video_dashinit.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+						<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_924C9E9A1829538A0731792AD36C4DA9_video_dashinit.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						</p>"; ?>
 					</li>
           <li>
 						<?php echo "<p>
-						<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_5B4A8826E68F0D14AE070412D6455FBD_video_dashinit.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+						<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_5B4A8826E68F0D14AE070412D6455FBD_video_dashinit.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						</p>"; ?>
 					</li>
 					<li>
             			<?php echo "<p>
-						<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_1443B1E471B1D4C95DF118B3494DB887_video_dashinit.mp4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+						<iframe width="100%" height="400px" src="vids/Snapinsta.app_video_1443B1E471B1D4C95DF118B3494DB887_video_dashinit.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						</p>"; ?>
 					</li>
 					<li>
