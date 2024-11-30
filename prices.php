@@ -31,7 +31,11 @@
     </nav>
      <main>
       <?php echo "<h1 style="color: #ff00b4">Prices</h1>"; ?>
-      <?php echo "<p style="color: #ff00b4"></p>"; ?>
+      <?php echo "<p style="color: #ff00b4">
+      <ol>
+      <li>Braids: </li>
+      </ol>
+      </p>"; ?>
       </main>
 </body>
 </html>
