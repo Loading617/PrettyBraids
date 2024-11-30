@@ -127,7 +127,11 @@ body {
  .nav-links a.active::after {
    width: 100%;
  }
- 
+
+ img{
+ border: 5px solid #ff00b4
+ }
+
  * {
   box-sizing: border-box;
 }
