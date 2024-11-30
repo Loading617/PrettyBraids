@@ -39,61 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
     
-const videoContainer = document.querySelector(".video-slider")
-const videos = document.querySelector(".videos")
-const videoItems = videos.querySelectorAll("video")
-const totalVideos = videoItems.length
-let translate = 0
-
-function updateArrowVisibility() {
-  const leftArrow = document.querySelector(".arrow-left")
-  const rightArrow = document.querySelector(".arrow-right")
-
-  if (translate === 0) {
-    leftArrow.style.display = "none"
-  } else {
-    leftArrow.style.display = "block"
-  }
-
-  if (translate === -(totalVideos - 1) * 100) {
-    rightArrow.style.display = "none"
-  } else {
-    rightArrow.style.display = "block"
-  }
-}
-
-function pauseAllVideos() {
-  videoItems.forEach((video) => {
-    video.pause()
-  })
-}
-
-function slide(direction) {
-  if (direction === "left" && translate < 0) {
-    translate += 100
-  }
-
-  if (direction === "right" && translate > -(totalVideos - 1) * 100) {
-    translate -= 100
-  }
-
-  videos.style = `translate:${translate}%;`
-  pauseAllVideos()
-  updateArrowVisibility()
-}
-
-updateArrowVisibility()
-
-videoContainer.addEventListener("click", (event) => {
-  if (event.target.classList.contains("arrow-left")) {
-    slide("left")
-  }
-
-  if (event.target.classList.contains("arrow-right")) {
-    slide("right")
-  }
-})
-    
   // Fade-in Effect
   navbar.style.opacity = 0;
   let opacity = 0;
@@ -106,6 +51,21 @@ videoContainer.addEventListener("click", (event) => {
     }
   }, 50);
 });
+
+const tiles = document.getElementsByClassName('tile');
+
+for (let i = 0; i < tiles.length; i++) {
+ 
+  tiles[i].addEventListener('mouseover', (e) => {
+    
+    if (e.clientX > (tiles[i].parentElement.clientWidth / 2)) 		{
+      tiles[i].parentElement.classList.add('left');
+    } else {
+      tiles[i].parentElement.classList.remove('left');
+    }
+
+  });
+}
 
   form.addEventListener("submit", event => {
     event.preventDefault()
