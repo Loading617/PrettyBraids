@@ -175,17 +175,11 @@ html {
   transform: translate3d(3.8rem, 0, 0);
 }
 
- @media (max-width: 1200px) {
-   .nav-links-left,
-   .nav-links-right {
-     width: 45%;
-   }
- }
- 
- @media (max-width: 992px) {
-   .nav-links-left,
-   .nav-links-right {
-     width: 48%;
+@media (max-width: 1024px) {
+  .swimlane {
+     flex-direction: column;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
    }
   
    h1, h2 {
