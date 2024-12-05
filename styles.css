@@ -179,6 +179,22 @@ html {
   transform: translate3d(3.8rem, 0, 0);
 }
 
+.div, h1{
+  position: absolute;
+  top: 20%;
+  right: 60%;
+  bottom: 60%;
+  margin: auto;
+}
+
+.div, h2{
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  bottom: 50%;
+  margin: auto;
+}
+
 @media (max-width: 1024px) {
   .swimlane {
      flex-direction: column;
