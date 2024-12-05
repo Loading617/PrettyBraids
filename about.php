@@ -32,7 +32,7 @@
       </div>
     </nav>
      <main>
-      <img style="vertical-align: middle center center" src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400" />
+      <img src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400">
       <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
       <?php echo "<p style="color: #ff00b4">We are a renowned braiding and styling company specializing in creating elegant and beautiful braids for women. 
         With Jessica, a Professional and Passionate Braider works tirelessly to ensure that our clients receive the best possible results. 
