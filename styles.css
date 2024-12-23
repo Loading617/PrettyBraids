@@ -196,16 +196,14 @@ html {
 .div, h1{
   position: absolute;
   top: 20%;
-  right: 60%;
-  bottom: 60%;
+  right: 70%;
   margin: auto;
 }
 
 .div, h2{
   position: absolute;
-  top: 40%;
-  right: 10%;
-  bottom: 50%;
+  top: 30%;
+  right: 70%;
   margin: auto;
 }
 
@@ -225,8 +223,12 @@ html {
    }
   }
 
-   h1, h2 {
-     font-size: 2.2em;
+    h1 {
+     font-size: 22px;
+   }
+ 
+   h2 {
+     font-size: 19px;
    }
  
    p {
@@ -236,7 +238,7 @@ html {
 
    .content {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #ff00ff;
   }
   
