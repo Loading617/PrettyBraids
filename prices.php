@@ -8,7 +8,7 @@
 <link rel="icon" type="image/x-icon" href="prettybraids.ico">
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body class="prices-page">
 
 <nav class="navbar">
       <ul class="nav-links">
@@ -29,13 +29,15 @@
         />
       </div>
     </nav>
-     <main>
-      <?php echo "<h1 style="color: #ff00b4">Prices</h1>"; ?>
-      <?php echo "<p style="color: #ff00b4">
-      <ul>
-      <li>Braids: </li>
-      </ul>
-      </p>"; ?>
+
+     <main style="padding-top:50px;">
+      <h1 style="color: #ff00b4">Prices</h1>
+        <ul style="color: #ff00b4;">
+            <li>$: </li>
+            <li>$: </li>
+            <li>$: </li>
+            <li>$: </li>
+            <li>$: </li>
+        </ul>
       </main>
-</body>
 </html>
