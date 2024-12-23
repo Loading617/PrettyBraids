@@ -195,15 +195,17 @@ html {
 
 .div, h1{
   position: absolute;
-  top: 40%;
-  right: 70%;
+  top: 20%;
+  right: 60%;
+  bottom: 60%;
   margin: auto;
 }
 
 .div, h2{
   position: absolute;
-  top: 50%;
-  right: 70%;
+  top: 40%;
+  right: 10%;
+  bottom: 50%;
   margin: auto;
 }
 
@@ -215,6 +217,19 @@ html {
   margin: auto;
 }
 
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.prices-page header {
+  position: relative;
+  top: 10px;
+  right: 50px;
+  text-align: center;
+  color: #00ff00;
+}
+
 @media (max-width: 1024px) {
   .swimlane {
      flex-direction: column;
@@ -223,7 +238,7 @@ html {
    }
   }
 
-    h1 {
+      h1 {
      font-size: 22px;
    }
  
