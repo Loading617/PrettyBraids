@@ -217,19 +217,6 @@ html {
   margin: auto;
 }
 
-header {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.prices-page header {
-  position: relative;
-  top: 10px;
-  right: 50px;
-  text-align: center;
-  color: #00ff00;
-}
-
 @media (max-width: 1024px) {
   .swimlane {
      flex-direction: column;
