@@ -195,14 +195,14 @@ html {
 
 .div, h1{
   position: absolute;
-  top: 20%;
+  top: 40%;
   right: 70%;
   margin: auto;
 }
 
 .div, h2{
   position: absolute;
-  top: 30%;
+  top: 50%;
   right: 70%;
   margin: auto;
 }
