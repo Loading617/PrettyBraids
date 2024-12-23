@@ -135,7 +135,7 @@ body {
  
  .image-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: 100vh;
   background-color: black;
@@ -225,12 +225,8 @@ html {
    }
   }
 
-      h1 {
-     font-size: 22px;
-   }
- 
-   h2 {
-     font-size: 19px;
+   h1, h2 {
+     font-size: 2.2em;
    }
  
    p {
