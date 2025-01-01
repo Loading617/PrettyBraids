@@ -52,31 +52,26 @@
     <video src="vids/Snapinsta.app_video_1443B1E471B1D4C95DF118B3494DB887_video_dashinit.mp4" autoplay loop muted></video>
   </div>
 		</div>
-	     <footer class="footer">
-  <div class="footer-container">
-    <div class="footer-column">
-      <?php echo"<h3>Pretty Braids</h3>"; ?>
-    <div class="footer-column">
-      <?php echo"<h3>Contact Us</h3>"; ?>
-      <ul>
-        <li><a href="tel:+8035616053">Phone</li>
-      </ul>
-    </div>
-    </div>
-    <div class="footer-column">
-      <?php echo"<h3>Follow us on</h3>"; ?>
-      <ul class="social-links">
-        <li><a href="https://www.facebook.com/profile.php?id=100092492316641">Facebook</a></li>
+	     <footer>
+  <div class="footer-section">
+    <h4>Contact Us</h4>
+    <ul>
+    <li><a href="tel:+8035616053">Phone</li>
+    </ul>
+  </div>
+
+  <div class="footer-section social-icons">
+    <h4>Follow us on</h4>
+    <ul>
+    <li><a href="https://www.facebook.com/profile.php?id=100092492316641">Facebook</a></li>
         <li><a href="https://www.instagram.com/pretty_braids2020/">Instagram</a></li>
         <li><a href="https://www.tiktok.com/@thegotojess?lang=en">TikTok</a></li>
         <li><a href="https://youtube.com/@Pretty_Braids">YouTube</a></li>
         <li><a href="https://youtube.com/@TheGoToJess">YouTube</a></li>
-      </ul>
-    </div>
+    </ul>
   </div>
-  <div class="footer-bottom">
-    <?php echo"<p>&copy; Pretty Braids. All rights reserved.</p>"; ?>
-  </div>
+
+  <p>&copy; Ferrero 2021. All rights reserved.</p>
 </footer>
 </body>
 </html>
