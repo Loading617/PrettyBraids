@@ -171,8 +171,8 @@ html {
 .tile {
   margin-right: 0.5rem;
   padding: 5px;
-  width: 320px;
-  height: 180px;
+  width: 108px;
+  height: 280px;
   background: #FF00FF;
   box-sizing: border-box;
   transition: .4s transform;
@@ -243,7 +243,7 @@ html {
     margin-top: 40px;
     color: #ff00ff;
   }
-
+  
  @media (max-width: 768px) {
    .navbar {
      flex-direction: column;
@@ -436,64 +436,43 @@ body {
   padding: 0;
 }
 
-.footer {
-  background-color: #ff00ff; 
-  color: #ff00b4; 
-  padding: 30px 0;
-}
-
-.footer-container {
+footer {
+  background-color: #ff00ff;
+  color: #ff00b4;
+  padding: 20px 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  justify-content: space-between;
 }
 
-.footer-column {
+.footer-section {
   flex: 1;
-  min-width: 200px;
-  margin: 10px;
 }
 
-.footer-column h3 {
-  font-size: 18px;
+.footer-section h4 {
   margin-bottom: 10px;
-  border-bottom: 1px solid #f3e8db;
-  padding-bottom: 5px;
 }
 
-.footer-column ul {
+.footer-section ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-column ul li {
-  margin: 8px 0;
+.footer-section ul li {
+  margin-bottom: 5px;
 }
 
-.footer-column ul li a {
-  color: #f3e8db;
+.footer-section ul li a {
+  color: #fff;
   text-decoration: none;
-  transition: color 0.3s;
 }
 
-.footer-column ul li a:hover {
-  color: #ff00b4; 
-}
-
-.social-links li {
+.social-icons ul li {
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  border-top: 1px solid #f3e8db;
-  padding-top: 10px;
-  font-size: 14px;
+.social-icons ul li a {
+  font-size: 20px;
 }
 
 @media screen and (max-width:710px) {
