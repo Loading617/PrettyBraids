@@ -436,36 +436,6 @@ body {
   padding: 0;
 }
 
-footer {
-  background-color: #ff00ff;
-  color: #ff00b4;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-section {
-  flex: 1;
-}
-
-.footer-section h4 {
-  margin-bottom: 10px;
-}
-
-.footer-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-section ul li {
-  margin-bottom: 5px;
-}
-
-.footer-section ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
 .social-icons ul li {
   display: inline-block;
   margin-right: 10px;
