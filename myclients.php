@@ -53,25 +53,7 @@
   </div>
 		</div>
 	     <footer>
-  <div class="footer-section">
-    <h4>Contact Us</h4>
-    <ul>
-    <li><a href="tel:+8035616053">Phone</li>
-    </ul>
-  </div>
 
-  <div class="footer-section social-icons">
-    <h4>Follow us on</h4>
-    <ul>
-    <li><a href="https://www.facebook.com/profile.php?id=100092492316641">Facebook</a></li>
-        <li><a href="https://www.instagram.com/pretty_braids2020/">Instagram</a></li>
-        <li><a href="https://www.tiktok.com/@thegotojess?lang=en">TikTok</a></li>
-        <li><a href="https://youtube.com/@Pretty_Braids">YouTube</a></li>
-        <li><a href="https://youtube.com/@TheGoToJess">YouTube</a></li>
-    </ul>
-  </div>
-
-  <p>&copy; Ferrero 2021. All rights reserved.</p>
 </footer>
 </body>
 </html>
