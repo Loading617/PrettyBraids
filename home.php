@@ -33,6 +33,7 @@
       <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
       <?php echo "<p style="color: #ff00b4">Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</p>"; ?>
       </main>
+    
       <div class="footer">
 
         <div class="footer-section">
@@ -55,5 +56,6 @@
             <p>&copy; Pretty Braids 2020-2025. All rights reserved.</p>
         </div>
     </div>
+    
 </body>
 </html>
