@@ -3,4 +3,4 @@
 </p>
 
 # Pretty Braids
-A Hairdresser Booking Site
+A Hair Booking Site
