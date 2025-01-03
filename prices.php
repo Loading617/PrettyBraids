@@ -40,6 +40,7 @@
             <li>$: </li>
         </ul>
       </main>
+      
       <div class="footer">
 
         <div class="footer-section">
@@ -62,5 +63,6 @@
             <p>&copy; Pretty Braids 2020-2025. All rights reserved.</p>
         </div>
     </div>
+      
 </body>
 </html>
