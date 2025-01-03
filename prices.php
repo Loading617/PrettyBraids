@@ -51,11 +51,11 @@
         <div class="footer-section">
             <?php echo"<h4>Follow us on</h4>"; ?>
             <div class="social-icons">
-            <a href="https://www.facebook.com/profile.php?id=100092492316641">Facebook</a></li>
-            <a href="https://www.instagram.com/pretty_braids2020/">Instagram</a></li>
-            <a href="https://www.tiktok.com/@thegotojess?lang=en">TikTok</a></li>
-            <a href="https://youtube.com/@Pretty_Braids">YouTube</a></li>
-            <a href="https://youtube.com/@TheGoToJess">YouTube</a></li>
+            <a href="https://www.facebook.com/profile.php?id=100092492316641">Facebook</a>
+            <a href="https://www.instagram.com/pretty_braids2020/">Instagram</a>
+            <a href="https://www.tiktok.com/@thegotojess?lang=en">TikTok</a>
+            <a href="https://youtube.com/@Pretty_Braids">YouTube</a>
+            <a href="https://youtube.com/@TheGoToJess">YouTube</a>
             </div>
         </div>
 
