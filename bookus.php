@@ -60,8 +60,29 @@
             </form>
         </div>
     </div>
-    <footer>
+                
+    <div class="footer">
 
-</footer>
+        <div class="footer-section">
+        <h4>Contact Us</h4>
+        <a href="tel:+8035616053">Phone</a>
+        </div>
+
+        <div class="footer-section">
+            <h4>Follow us on</h4>
+            <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100092492316641">Facebook</a></li>
+            <a href="https://www.instagram.com/pretty_braids2020/">Instagram</a></li>
+            <a href="https://www.tiktok.com/@thegotojess?lang=en">TikTok</a></li>
+            <a href="https://youtube.com/@Pretty_Braids">YouTube</a></li>
+            <a href="https://youtube.com/@TheGoToJess">YouTube</a></li>
+            </div>
+        </div>
+
+        <div class="footer-section" style="flex-basis: 100%; text-align: center;">
+            <p>&copy; Pretty Braids 2020-2025. All rights reserved.</p>
+        </div>
+    </div>
+                
 </body>
 </html>
