@@ -171,8 +171,8 @@ html {
 .tile {
   margin-right: 0.5rem;
   padding: 5px;
-  width: 108px;
-  height: 280px;
+  width: 308px;
+  height: 480px;
   background: #FF00FF;
   box-sizing: border-box;
   transition: .4s transform;
