@@ -135,7 +135,7 @@ body {
  
  .image-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: 100vh;
   background-color: black;
@@ -434,15 +434,6 @@ body {
   font-family: Verdana, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-.social-icons ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-icons ul li a {
-  font-size: 20px;
 }
 
 @media screen and (max-width:710px) {
