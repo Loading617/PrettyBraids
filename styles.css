@@ -447,3 +447,38 @@ body {
        text-align: center;
    }
 }
+
+body { 
+font-family: Verdana, sans-serif; 
+} 
+
+.footer { 
+background-color: #FF00FF; 
+color: #ff00b4; 
+padding: 20px; 
+display: flex; 
+justify-content: space-between; 
+flex-wrap: wrap; 
+} 
+
+.footer-section { 
+margin: 10px;
+}
+
+.footer-section h4 { 
+margin-bottom: 10px; 
+}
+
+.footer-section a { 
+color: #ff00b4;
+text-decoration: none; 
+display: block; margin-bottom: 5px; 
+} 
+
+.footer-section a:hover { 
+  text-decoration: underline; 
+} 
+
+.social-icons a { 
+margin-right: 10px;
+}
