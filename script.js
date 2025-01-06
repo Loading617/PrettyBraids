@@ -6,7 +6,7 @@ const date = document.querySelector('#date');
 const starttime = document.querySelector('time');
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Smooth Scrolling
+    
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault();
@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
 
-// Active Link Highlighting
   function highlightActiveSection() {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll(".nav-links a");
