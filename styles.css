@@ -204,7 +204,7 @@ html {
 .div, h2{
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 50%;
   right: 10%;
   margin: auto;
 }
