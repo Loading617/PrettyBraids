@@ -225,6 +225,22 @@ html {
   margin: auto;
 }
 
+.div, h1.bookus-page{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: 10%;
+  margin: auto;
+}
+
+.div, p.bookus-page{
+  position: absolute;
+  top: 30%;
+  right: 60%;
+  bottom: 60%;
+  margin: auto;
+}
+
 @media (max-width: 1024px) {
   .swimlane {
      flex-direction: column;
