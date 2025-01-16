@@ -39,6 +39,6 @@
             <li>$: </li>
             <li>$: </li>
         </ul>
-        <?php echo"<h2 style="color: #ff00b4">Time to Take</h2>"; ?>
+        <?php echo"<p style="color: #ff00b4">Time to Take</p>"; ?>
       </main>
 </html>
