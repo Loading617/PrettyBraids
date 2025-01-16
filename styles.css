@@ -135,7 +135,7 @@ body {
  
  .image-container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: black;
@@ -171,8 +171,8 @@ html {
 .tile {
   margin-right: 0.5rem;
   padding: 5px;
-  width: 308px;
-  height: 480px;
+  width: 320px;
+  height: 180px;
   background: #FF00FF;
   box-sizing: border-box;
   transition: .4s transform;
@@ -193,19 +193,19 @@ html {
   transform: translate3d(3.8rem, 0, 0);
 }
 
-.div, h1{
+.div, h1.prices-page{
   position: absolute;
-  top: 40%;
-  left: 50%;
-  right: 10%;
+  top: 20%;
+  right: 90%;
+  bottom: 60%;
   margin: auto;
 }
 
 .div, h2{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
   right: 10%;
+  bottom: 50%;
   margin: auto;
 }
 
@@ -217,28 +217,17 @@ html {
   margin: auto;
 }
 
-.div, h1.prices-page{
-  position: absolute;
-  top: 20%;
-  right: 90%;
-  bottom: 60%;
-  margin: auto;
+header {
+  text-align: center;
+  margin: 20px 0;
 }
 
-.div, h1.bookus-page{
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  right: 10%;
-  margin: auto;
-}
-
-.div, p.bookus-page{
-  position: absolute;
-  top: 30%;
-  right: 60%;
-  bottom: 60%;
-  margin: auto;
+.prices-page header {
+  position: relative;
+  top: 10px;
+  right: 50px;
+  text-align: center;
+  color: #00ff00;
 }
 
 @media (max-width: 1024px) {
@@ -249,7 +238,7 @@ html {
    }
   }
 
-    h1 {
+      h1 {
      font-size: 22px;
    }
  
@@ -258,16 +247,31 @@ html {
    }
  
    p {
-     font-size: 1.1em;
+     font-size: 14px;
    }
  
 
    .content {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     color: #ff00ff;
   }
   
+  
+  .price-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  
+  .price-list li {
+    font-size: 20px;
+    color: #ff00ff;
+    margin: 5px 0;
+  }
+
  @media (max-width: 768px) {
    .navbar {
      flex-direction: column;
@@ -452,12 +456,6 @@ html {
    font-size: 19px;
    background-color: rgb(255, 0, 255) !important;
    color: #fff !important;
-}
-
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 @media screen and (max-width:710px) {
