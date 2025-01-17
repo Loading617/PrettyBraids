@@ -29,8 +29,7 @@
           src="prettybraids.png"
           alt="Pretty Braids Logo"
         />
-      </div>
-    </nav>
+      
      <main>
       <img src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400">
       <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
