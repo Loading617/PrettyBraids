@@ -32,6 +32,7 @@
 
      <main style="padding-top:50px;">
       <?php echo"<h1 style="color: #ff00b4">Prices</h1>"; ?>
+      <?php echo"<p style="color: #ff00b4">Time to Take</p>"; ?>
         <ul style="color: #ff00b4;">
             <li>$: </li>
             <li>$: </li>
@@ -39,6 +40,5 @@
             <li>$: </li>
             <li>$: </li>
         </ul>
-        <?php echo"<p style="color: #ff00b4">Time to Take</p>"; ?>
       </main>
 </html>
