@@ -39,6 +39,5 @@
         Our mission is to provide high-quality, stylish, and customizable braids that cater to your specific needs and preferences.</p>"; ?>
       </main>
       
-          
 </body>
 </html>
