@@ -29,14 +29,14 @@
       </div>
     </nav>
      <main style="padding-top:50px;">
-      <?php echo"<h1 style="color: #ff00b4">Prices</h1>"; ?>
+      <h1 style="color: #ff00b4">Prices</h1>
         <ul style="color: #ff00b4;">
-            <li>$ for:  Time to Take:</li>
-            <li>$ for:  Time to Take:</li>
-            <li>$ for:  Time to Take:</li>
-            <li>$ for:  Time to Take:</li>
-            <li>$ for:  Time to Take:</li>
-        </ul>
+            <li>$ for:  Time to Take: </li>
+            <li>$ for:  Time to Take: </li>
+            <li>$ for:  Time to Take: </li>
+            <li>$ for:  Time to Take: </li>
+            <li>$ for:  Time to Take: </li>
+       </ul>
       </main>
 </body>
 </html>
