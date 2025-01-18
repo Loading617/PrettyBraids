@@ -32,7 +32,6 @@
       <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
       <?php echo "<p style="color: #ff00b4">Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</p>"; ?>
       </main>
-    
-    
+          
 </body>
 </html>
