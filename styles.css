@@ -193,19 +193,19 @@ html {
   transform: translate3d(3.8rem, 0, 0);
 }
 
-.div, h1.prices-page{
+.div, h1{
   position: absolute;
-  top: 20%;
-  right: 90%;
-  bottom: 60%;
+  top: 80%;
+  left: 50%;
+  right: 10%;
   margin: auto;
 }
 
 .div, h2{
   position: absolute;
-  top: 40%;
+  top: 50%;
+  left: 50%;
   right: 10%;
-  bottom: 50%;
   margin: auto;
 }
 
@@ -217,19 +217,6 @@ html {
   margin: auto;
 }
 
-header {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.prices-page header {
-  position: relative;
-  top: 10px;
-  right: 50px;
-  text-align: center;
-  color: #00ff00;
-}
-
 @media (max-width: 1024px) {
   .swimlane {
      flex-direction: column;
@@ -238,7 +225,7 @@ header {
    }
   }
 
-      h1 {
+    h1 {
      font-size: 22px;
    }
  
@@ -247,13 +234,13 @@ header {
    }
  
    p {
-     font-size: 14px;
+     font-size: 1.1em;
    }
  
 
    .content {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #ff00ff;
   }
   
@@ -456,6 +443,72 @@ header {
    font-size: 19px;
    background-color: rgb(255, 0, 255) !important;
    color: #fff !important;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #ff00ff; 
+  color: #ff00b4; 
+  padding: 30px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #f3e8db;
+  padding-bottom: 5px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 8px 0;
+}
+
+.footer-column ul li a {
+  color: #f3e8db;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #ff00b4; 
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #f3e8db;
+  padding-top: 10px;
+  font-size: 14px;
 }
 
 @media screen and (max-width:710px) {
