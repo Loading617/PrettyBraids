@@ -66,6 +66,10 @@ for (let i = 0; i < tiles.length; i++) {
   });
 }
 
+document.getElementById("datePicker").addEventListener("change", function() {
+    document.getElementById("timePicker").classList.add("active-time");
+});
+
   form.addEventListener("submit", event => {
     event.preventDefault()
     console.log(`Form submitted to ${form.action}`);
