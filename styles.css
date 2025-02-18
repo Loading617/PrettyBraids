@@ -243,21 +243,6 @@ html {
     margin-top: 40px;
     color: #ff00ff;
   }
-  
-  
-  .price-list {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    display: inline-block;
-  }
-  
-  
-  .price-list li {
-    font-size: 20px;
-    color: #ff00ff;
-    margin: 5px 0;
-  }
 
  @media (max-width: 768px) {
    .navbar {
@@ -417,6 +402,15 @@ html {
    font-family: "Dejavu Sans", "Times New Roman";
    color: #fff;
    font-size: 25px;
+}
+
+.default-time {
+    filter: grayscale(100%);
+}
+
+.active-time {
+    filter: grayscale(0%);
+    color: #ff00b4;
 }
 
 .submit{
