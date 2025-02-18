@@ -48,11 +48,11 @@
                 </div>
                 <div>
                     <span>What time:</span>
-                    <input type="time" name="time" id="time" required>
+                    <input type="time" name="time" id="timePicker" class="default-time" required>
                 </div>
                 <div>
                     <span>Date:</span>
-                    <input type="date" name="date" id="date" required>
+                    <input type="date" name="date" id="datePicker" class="default-time" required>
                 </div>
                 <div id="submit">
                     <input type="submit" value="Book with Pretty Braids" id="Book with Pretty Braids">
