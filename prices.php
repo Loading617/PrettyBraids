@@ -28,7 +28,7 @@
         />
       </div>
     </nav>
-     <main style="padding-top:50px;">
+     <main style="padding-top:100px;">
       <?php echo"<h1 style="color: #ff00b4">Prices</h1>"; ?>
       </main>
 </body>
