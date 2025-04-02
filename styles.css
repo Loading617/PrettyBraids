@@ -22,6 +22,10 @@ body {
    padding-top: 60px;
    background-color: rgb(0, 0, 0);
  }
+
+video {
+  width: 100%;
+}
  
  body, html {
   margin: 0;
@@ -135,7 +139,7 @@ body {
  
  .image-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   height: 100vh;
   background-color: black;
@@ -160,19 +164,18 @@ html {
 }
 
 .swimlane {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: min(1500px, 100% - 3em);
+  margin-inline:auto;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(min(260px, 100%), 1fr));
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: .4s transform;
+  gap:.5em;
 }
 
 .tile {
-  margin-right: 0.5rem;
   padding: 5px;
-  width: 320px;
-  height: 180px;
   background: #FF00FF;
   box-sizing: border-box;
   transition: .4s transform;
@@ -195,7 +198,7 @@ html {
 
 .div, h1{
   position: absolute;
-  top: 80%;
+  top: 40%;
   left: 50%;
   right: 10%;
   margin: auto;
@@ -210,6 +213,30 @@ html {
 }
 
 .div, p{
+  position: absolute;
+  top: 30%;
+  right: 60%;
+  bottom: 60%;
+  margin: auto;
+}
+
+.div, h1.prices-page{
+  position: absolute;
+  top: 20%;
+  right: 90%;
+  bottom: 60%;
+  margin: auto;
+}
+
+.div, h1.bookus-page{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: 10%;
+  margin: auto;
+}
+
+.div, p.bookus-page{
   position: absolute;
   top: 30%;
   right: 60%;
@@ -243,7 +270,7 @@ html {
     margin-top: 40px;
     color: #ff00ff;
   }
-
+  
  @media (max-width: 768px) {
    .navbar {
      flex-direction: column;
@@ -404,15 +431,6 @@ html {
    font-size: 25px;
 }
 
-.default-time {
-    filter: grayscale(100%);
-}
-
-.active-time {
-    filter: grayscale(0%);
-    color: #ff00b4;
-}
-
 .submit{
    width: 100%;
    text-align: center;
@@ -443,66 +461,6 @@ body {
   font-family: Verdana, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-.footer {
-  background-color: #ff00ff; 
-  color: #ff00b4; 
-  padding: 30px 0;
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.footer-column {
-  flex: 1;
-  min-width: 200px;
-  margin: 10px;
-}
-
-.footer-column h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #f3e8db;
-  padding-bottom: 5px;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-column ul li {
-  margin: 8px 0;
-}
-
-.footer-column ul li a {
-  color: #f3e8db;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer-column ul li a:hover {
-  color: #ff00b4; 
-}
-
-.social-links li {
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  border-top: 1px solid #f3e8db;
-  padding-top: 10px;
-  font-size: 14px;
 }
 
 @media screen and (max-width:710px) {
