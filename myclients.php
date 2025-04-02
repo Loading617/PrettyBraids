@@ -33,8 +33,8 @@
       </div>
     </nav>
      <main>
-      <!-- <h1 style="color: #ff00b4">My Clients</h1> /> -->
-      <!-- <p style="color: #ff00b4">Here are my Pretty Braiders!</p> /> -->
+      <!-- <?php echo "<h1 style="color: #ff00b4">My Clients</h1>"; /> -->
+      <!-- <?php echo "<p style="color: #ff00b4">Here are my Pretty Braiders!</p>"; /> -->
       <div class="spacer"></div>
 <div class="swimlane">
   <div class="tile">
