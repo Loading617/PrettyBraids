@@ -61,6 +61,10 @@
         </div>
     </div>
 
+    <div class="logo-container">
+        <img src="prettybraids.png" alt="Pretty Braids">
+     </div>
+                
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
