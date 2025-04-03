@@ -31,7 +31,11 @@
      <main style="padding-top:300px;">
       <?php echo"<h1 style="color: #ff00b4">Prices</h1>"; ?>
       </main>
-
+      
+      <div class="logo-container">
+        <img src="prettybraids.png" alt="Pretty Braids">
+     </div>
+      
       <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
