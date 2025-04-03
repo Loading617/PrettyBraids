@@ -31,5 +31,34 @@
      <main style="padding-top:300px;">
       <?php echo"<h1 style="color: #ff00b4">Prices</h1>"; ?>
       </main>
+
+      <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+
+            <div class="footer-section">
+                <?php echo "<h3>Contact Us</h3>"; ?>
+                <ul>
+                    <li><a href="mailto:">Email</a></li>
+                    <li><a href="tel:+8035616053">Phone</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <?php echo "<h3>Follow Us</h3>"; ?>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100092492316641">Facebook</a>
+                    <a href="https://www.instagram.com/pretty_braids2020/">Instagram</a>
+                    <a href="https://www.tiktok.com/@thegotojess?lang=en">TikTok</a>
+                    <a href="https://www.youtube.com/@Pretty_Braids">YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2020-2025 Pretty Braids. All Rights Reserved.
+        </div>
+     </footer>
+      
 </body>
 </html>
