@@ -65,7 +65,7 @@ video {
    list-style-type: none;
    margin: 0;
    padding: 0;
-   position: relative;
+   display: flex;
    z-index: 2;
    width: 100%;
    max-width: 1200px;
@@ -282,7 +282,7 @@ html {
      width: 100%;
      flex-direction: row;
      justify-content: center;
-     position: static;
+     display: flex;
      transform: none;
      left: auto;
    }
@@ -438,7 +438,7 @@ html {
 
 #submit input{
    font-family: "Dejavu Sans", "Times New Roman";
-   width: 300px;
+   width: 625px;
    background-color: magenta !important;
    color: black !important;
    transition: all .3s;
@@ -446,7 +446,7 @@ html {
 
 #submit input:hover{
    font-family: "Dejavu Sans", "Times New Roman";
-   width: 300px;
+   width: 625px;
    background-color: black !important;
    color: #fff !important;
 }
