@@ -30,11 +30,11 @@
     </nav>
      <main style="padding-top:300px;">
       <ul style="color: #ff00b4;">
-            <li>$: </li>
-            <li>$: </li>
-            <li>$: </li>
-            <li>$: </li>
-            <li>$: </li>
+            <li>Hairstyle $: </li>
+            <li>Hairstyle $: </li>
+            <li>Hairstyle $: </li>
+            <li>Hairstyle $: </li>
+            <li>Hairstyle $: </li>
         </ul>
       <?php echo"<p style="color: #ff00b4">
         Prices may depend on hairstyle.
