@@ -30,7 +30,7 @@
           alt="Pretty Braids Logo"
         />
       
-     <main>
+     <main style="display: flex">
       <img src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400">
       <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
       <?php echo "<p style="color: #ff00b4">We are a renowned braiding and styling company specializing in creating elegant and beautiful braids for women. 
