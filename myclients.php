@@ -21,7 +21,7 @@
           <li><a href="bookus.php">Book Us</a></li>
         </div>
         <div class="nav-links-right">
-          <li><a href="myclients.php">My Clients</a></li>
+          <li><a href="myclients.php" class="active">My Clients</a></li>
           <li><a href="about.php">About</a></li>
         </div>
       </ul>
