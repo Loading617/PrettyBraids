@@ -31,10 +31,10 @@
     <div class="form-text">
       <div class="logo-images">
         <img src="prettybraids.png" alt="Pretty Braids Logo" />
-        <h1>Book an Appointment with Pretty Braids</h1>
+        <?php echo"<h1>Book an Appointment with Pretty Braids</h1>"; ?>
         <img src="prettybraids.png" alt="Pretty Braids Logo" />
       </div>
-      <p>Book your appointment with Pretty Braids today. We are here to make women's braids look and feel amazing.</p>
+      <?php echo"<p>Book your appointment with Pretty Braids today. We are here to make women's braids look and feel amazing.</p>"; ?>
     </div>
     <div class="main-form">
       <div>
