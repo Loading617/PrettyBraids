@@ -21,7 +21,7 @@
         </div>
         <div class="nav-links-right">
           <li><a href="myclients.php">My Clients</a></li>
-          <li><a href="about.php">About</a></li>
+          <li><a href="about.php" class="active">About</a></li>
         </div>
       </ul>
       <div class="logo">
