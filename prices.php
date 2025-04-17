@@ -13,7 +13,7 @@
       <ul class="nav-links">
         <div class="nav-links-left">
           <li><a href="home.php">Home</a></li>
-          <li><a href="prices.php">Prices</a></li>
+          <li><a href="prices.php" class="active">Prices</a></li>
           <li><a href="bookus.php">Book Us</a></li>
         </div>
         <div class="nav-links-right">
