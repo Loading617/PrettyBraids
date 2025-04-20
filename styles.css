@@ -142,7 +142,7 @@ html {
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: .4s transform;
-  gap:.5em;
+  gap: .5em;
 }
 
 .tile {
