@@ -136,7 +136,7 @@ html {
 
 .swimlane {
   width: min(1500px, 100% - 3em);
-  margin-inline:auto;
+  margin-inline: auto;
   display: grid;
   grid-template-columns:repeat(auto-fill, minmax(min(260px, 100%), 1fr));
   margin-top: 2rem;
