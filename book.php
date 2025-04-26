@@ -15,7 +15,7 @@
     <div class="nav-links-left">
       <li><a href="index.php">Home</a></li>
       <li><a href="prices.php">Prices</a></li>
-      <li><a href="book.php" class="active">Book Us</a></li>
+      <li><a href="book.php" class="active">Book</a></li>
     </div>
     <div class="nav-links-right">
       <li><a href="myclients.php">My Clients</a></li>
