@@ -151,7 +151,8 @@ html {
   box-sizing: border-box;
   transition: .4s transform;
   transform-origin: center left;
-  border-radius: 50% / 25%;
+  border-radius: 50%;
+  rotate: 90deg;
   overflow: hidden;
 }
 
