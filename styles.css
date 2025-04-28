@@ -142,11 +142,11 @@ html {
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: .4s transform;
-  gap: .5em;
+  gap: .10em;
 }
 
 .tile {
-  padding: 5px;
+  padding: 10px;
   background: #FF00FF;
   box-sizing: border-box;
   transition: .4s transform;
