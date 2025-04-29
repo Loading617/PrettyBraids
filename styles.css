@@ -187,7 +187,7 @@ html {
 
 .form-text h1 {
   color: #fff;
-  font-family: "Dejavu Sans", "Times New Roman";
+  font-family: Trebuchet MS, serif;
   font-size: 2.2rem;
   margin-bottom: 20px;
   text-shadow: 0 0 10px rgba(255, 0, 180, 0.5);
@@ -195,7 +195,7 @@ html {
 
 .form-text p {
   color: #fff;
-  font-family: "Dejavu Sans", "Times New Roman";
+  font-family: Trebuchet MS, serif;
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -229,7 +229,7 @@ html {
 
 .main-form div span {
   display: block;
-  font-family: "Dejavu Sans", "Times New Roman";
+  font-family: Trebuchet MS, serif;
   color: #fff;
   font-size: 1.1rem;
   margin-bottom: 8px;
@@ -237,7 +237,7 @@ html {
 
 .main-form div input, .main-form div select {
   width: 100%;
-  font-family: "Dejavu Sans", "Times New Roman";
+  font-family: Trebuchet MS, serif;
   background: rgba(255, 255, 255, 0.05);
   border: 2px solid #FF00FF;
   border-radius: 5px;
@@ -322,7 +322,7 @@ select option:checked {
 }
 
 #submit input {
-  font-family: "Dejavu Sans", "Times New Roman";
+  font-family: Trebuchet MS, serif;
   width: 100%;
   background-color: #FF00FF;
   color: black;
