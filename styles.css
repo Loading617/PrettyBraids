@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.main_bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 body {
   margin: 0;
   font-family: Trebuchet MS, serif;
@@ -17,6 +24,19 @@ body {
   background-color: rgb(0, 0, 0);
   color: #fff;
 }
+
+video {
+  width: 100%;
+}
+ 
+ body, html {
+  margin: 0;
+  height: 100%;
+ }
+
+text {
+  color: #ff00b4;
+ }
 
 body::-webkit-scrollbar {
   display: none;
@@ -121,17 +141,13 @@ img {
   border: 3px solid #ff00b4;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   background: black;
 }
 
 .spacer {
   width: 100%;
-  height: 5rem;
+  height: 1rem;
 }
 
 .swimlane {
@@ -142,11 +158,11 @@ html {
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: .4s transform;
-  gap: .10em;
+  gap: .5em;
 }
 
 .tile {
-  padding: 10px;
+  padding: 5px;
   background: #FF00FF;
   box-sizing: border-box;
   transition: .4s transform;
