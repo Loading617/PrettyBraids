@@ -138,7 +138,13 @@ body::-webkit-scrollbar {
 }
 
 img {
+  height: auto;
+  width: 100%;
+  max-width: 150px;
   border: 3px solid #ff00b4;
+  border-radius: 50%;
+  background-color: black;
+  padding: 5px;
 }
 
 html {
