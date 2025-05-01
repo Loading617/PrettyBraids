@@ -25,10 +25,6 @@ body {
   color: #fff;
 }
 
-video {
-  width: 100%;
-}
-
  body, html {
   margin: 0;
   height: 100%;
@@ -162,16 +158,24 @@ html {
 }
 
 .tile {
-  margin: 60px;
   padding: 5px;
   background: #FF00FF;
   box-sizing: border-box;
   transition: .4s transform;
   transform-origin: center left;
   border-radius: 50%;
-  rotate: 90deg;
   overflow: hidden;
+  aspect-ratio: 3 / 4;
 }
+
+.tile video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
 
 .swimlane:hover {
   &.left {
