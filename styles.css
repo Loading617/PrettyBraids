@@ -28,15 +28,15 @@ body {
 video {
   width: 100%;
 }
- 
- body, html {
+
+body, html {
   margin: 0;
   height: 100%;
- }
+}
 
 text {
   color: #ff00b4;
- }
+}
 
 body::-webkit-scrollbar {
   display: none;
@@ -143,7 +143,7 @@ img {
   max-width: 150px;
   border: 3px solid #ff00b4;
   border-radius: 50%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   padding: 5px;
 }
 
@@ -153,18 +153,18 @@ html {
 
 .spacer {
   width: 100%;
-  height: 1rem;
+  height: 5rem;
 }
 
 .swimlane {
   width: min(1500px, 100% - 3em);
-  margin-inline: auto;
+  margin-inline:auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  grid-template-columns:repeat(auto-fill, minmax(min(260px, 100%), 1fr));
   margin-top: 2rem;
   margin-bottom: 2rem;
   transition: .4s transform;
-  gap: .5em;
+  gap:.5em;
 }
 
 .tile {
@@ -173,9 +173,6 @@ html {
   box-sizing: border-box;
   transition: .4s transform;
   transform-origin: center left;
-  border-radius: 50%;
-  rotate: 90deg;
-  overflow: hidden;
 }
 
 .swimlane:hover {
@@ -209,7 +206,7 @@ html {
 
 .form-text h1 {
   color: #fff;
-  font-family: Trebuchet MS, serif;
+  font-family: Tahoma, serif;
   font-size: 2.2rem;
   margin-bottom: 20px;
   text-shadow: 0 0 10px rgba(255, 0, 180, 0.5);
@@ -217,7 +214,7 @@ html {
 
 .form-text p {
   color: #fff;
-  font-family: Trebuchet MS, serif;
+  font-family: Tahoma, serif;
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -251,7 +248,7 @@ html {
 
 .main-form div span {
   display: block;
-  font-family: Trebuchet MS, serif;
+  font-family: Tahoma, serif;
   color: #fff;
   font-size: 1.1rem;
   margin-bottom: 8px;
@@ -259,7 +256,7 @@ html {
 
 .main-form div input, .main-form div select {
   width: 100%;
-  font-family: Trebuchet MS, serif;
+  font-family: Tahoma, serif;
   background: rgba(255, 255, 255, 0.05);
   border: 2px solid #FF00FF;
   border-radius: 5px;
@@ -344,7 +341,7 @@ select option:checked {
 }
 
 #submit input {
-  font-family: Trebuchet MS, serif;
+  font-family: Tahoma, serif;
   width: 100%;
   background-color: #FF00FF;
   color: black;
