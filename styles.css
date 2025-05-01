@@ -438,7 +438,7 @@ input[type="date"], input[type="time"] {
 input[type="date"]::-webkit-calendar-picker-indicator,
 input[type="time"]::-webkit-calendar-picker-indicator {
   filter: invert(1) hue-rotate(310deg) saturate(5);
-  opacity: 1;
+  opacity: 0;
   cursor: pointer;
   padding: 5px;
   border-radius: 3px;
