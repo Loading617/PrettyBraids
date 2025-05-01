@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  
+
 <nav class="navbar">
       <ul class="nav-links">
         <div class="nav-links-left">
@@ -29,15 +29,16 @@
           src="prettybraids.png"
           alt="Pretty Braids Logo"
         />
-      
+      </div>
+    </nav>
+    
      <main style="display: flex">
-      <img src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400">
-      <?php echo "<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
-      <?php echo "<p style="color: #ff00b4">We are a renowned braiding and styling company specializing in creating elegant and beautiful braids for women. 
-        With Jessica, a Professional and Passionate Braider works tirelessly to ensure that our clients receive the best possible results. 
-        We strive to create a memorable and comfortable experience for our clients, making them feel confident and at ease with their new braids.
-        Our mission is to provide high-quality, stylish, and customizable braids that cater to your specific needs and preferences.</p>"; ?>
+     <div class="image-container">
+     <img src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400">
+     </div>
+      <?php echo"<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
+      <?php echo"<p style="color: #ff00b4">Pretty Braids, by Jessica House established in 2020 is a Hairdresser Booking service</p>"; ?>
       </main>
-      
+
 </body>
 </html>
