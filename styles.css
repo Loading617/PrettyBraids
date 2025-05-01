@@ -25,14 +25,14 @@ body {
   color: #fff;
 }
 
- body, html {
+body, html {
   margin: 0;
   height: 100%;
- }
+}
 
 text {
   color: #ff00b4;
- }
+}
 
 body::-webkit-scrollbar {
   display: none;
@@ -175,7 +175,6 @@ html {
   border-radius: 50%;
   display: block;
 }
-
 
 .swimlane:hover {
   &.left {
