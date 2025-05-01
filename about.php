@@ -33,6 +33,7 @@
     </nav>
     
      <main style="display: flex">
+     <main style="padding-top: 100px;">
      <div class="image-container">
      <img src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400">
      </div>
