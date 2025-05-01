@@ -30,7 +30,7 @@
       </div>
     </nav>
      <main style="display: flex">
-     <main style="padding-top:100px;">
+     <main style="padding-top: 100px;">
      <div class="image-container">
       <img src="" alt="Pic of Jessica" width="" height="" />
        </div>
