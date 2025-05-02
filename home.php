@@ -31,13 +31,11 @@
     </nav>
      <main style="display: flex">
      <main style="padding-top: 100px;">
-     <div class="image-container">
+     <div class="image-container"></div>
       <img src="" alt="Pic of Jessica" width="" height="" />
-       </div>
       <?php echo"<h1 style="color: #ff00b4">Welcome to my Hair Booking Site!!</h1>"; ?>
       <?php echo"<h2 style="color: #ff00b4">Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</h2>"; ?>
       <?php echo"<h3 style="color: #ff00b4">Located in Columbia, SC</h3>"; ?>
       </main>
-      </div>
 </body>
 </html>
