@@ -3,4 +3,4 @@
 </p>
 
 # Pretty Braids
-A Hairdresser Booking in Columbia, SC
+A Booking Hairdresser in Columbia, SC
