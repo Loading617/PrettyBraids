@@ -9,6 +9,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge Webkit, Chrome= Edge">
 <link rel="icon" type="image/x-icon" href="prettybraids.ico">
 <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 </head>
 <body>
 
@@ -16,7 +18,6 @@
       <ul class="nav-links">
         <div class="nav-links-left">
           <li><a href="home.php">Home</a></li>
-          <li><a href="prices.php">Prices</a></li>
           <li><a href="bookus.php">Book Us</a></li>
         </div>
         <div class="nav-links-right">
@@ -33,12 +34,51 @@
     </nav>
     
      <main style="display: flex">
-     <main style="padding-top: 100px;">
      <div class="image-container">
+     <main style="padding-top: 100px;">
      <img src="prettybraids.png" alt="Pretty Braids Logo" width="400" height="400">
      </div>
       <?php echo"<h1 style="color: #ff00b4">Pretty Braids</h1>"; ?>
       <?php echo"<p style="color: #ff00b4">Pretty Braids, by Jessica House established in 2020 is a Hairdresser Booking service</p>"; ?>
+      
+      <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <div class="footer-column"></div><?php echo"<h1>Connect with Us</h1>"; ?>
+        <ul>
+          <li><a href="mailto:jessicalolitathebrand@gmail.com"><span class="lnr lnr-envelope"> jessicalolitathebrand@gmail.com</span></a></li>
+          <li><a href="tel:+8035616053"><span class="lnr lnr-phone"> (803) 561-6053</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-container">
+  <div class="footer-column">
+    <div class="footer-column"><?php echo"<h2>Keep Up with Us</h2>"; ?>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <div class="footer-column">
+          <div>Pretty Braids Est. 2020</div>
+        </div>
+      </div>
+      
+      <div class="footer-container">
+      <div class="footer-column">
+        <div class="footer-column"></div>
+        </div>
+        <div class="socials">
+          <a href="https://www.facebook.com/profile.php?id=100092492316641" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/pretty_braids2020/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@thegotojess?lang=en" target="_blank"><i class="fab fa-tiktok"></i></a>
+          <a href="https://www.youtube.com/@Pretty_Braids" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.youtube.com/@TheGoToJess" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-wrapper">
+      <div class="dots"></div>
+    </div>
+  </footer>
+
       </main>
 
 </body>
