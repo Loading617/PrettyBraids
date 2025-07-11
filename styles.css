@@ -23,6 +23,9 @@ body {
   padding-top: 60px;
   background-color: rgb(0, 0, 0);
   color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 body, html {
@@ -57,6 +60,65 @@ body::-webkit-scrollbar {
   transition: opacity 0.5s ease;
   z-index: 1000;
 }
+
+li {
+  text-align: center;
+  color: #ff00ff;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-weight: light;
+}
+
+a {
+  color: #ff00ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff00b4;
+}
+
+.lnr-envelope {
+  color: #ff00ff;
+  font-size: 18px;
+}
+
+.lnr-envelope:hover {
+  color: #ff00b4;
+}
+
+.lnr-phone {
+  color: #ff00ff;
+  font-size: 18px;
+}
+
+.lnr-phone:hover {
+  color: #ff00b4;
+}
+
+.socials {
+  display: flex;
+  cursor: pointer;
+  gap: 15px;
+  margin-left: 600px;
+}
+
+.socials a {
+  font-size: 24px;
+  color: #ff00ff;
+  transition: transform 0.3s;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+  color: #ff00b4;
+}
+
 
 .nav-links {
   display: flex;
@@ -547,4 +609,71 @@ input#booking_time {
     background-size: contain;
     pointer-events: none;
   }
+}
+
+footer {
+  margin-top: auto;
+  font-family: Verdana, serif;
+  min-height: 300px;
+  position: relative;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ff00ff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #ff00ff;
+}
+
+.footer-column ul li a:hover {
+  color: #ff00b4;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #ff00ff;
+}
+
+.wrapper {
+  position: relative;
+  height: 100px;
+}
+
+footer .dots {
+  background: url("./prettybraids.png") 0 0/50px 50px;
+  position: absolute;
+  inset: 0;
+  -webkit-mask: radial-gradient(red 30%, transparent 0) 0 0/50px 50px;
+          mask: radial-gradient(red 30%, transparent 0) 0 0/50px 50px;
+}
+
+
+.bottom-wrapper {
+  position: relative;
+  height: 300px;
 }
