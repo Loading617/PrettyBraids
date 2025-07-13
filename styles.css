@@ -33,6 +33,21 @@ body, html {
   height: 100%;
 }
 
+h1 {
+  font-size: 18px;
+  text-align: center;
+  color: #ff00ff;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #ff00ff;
+  margin-bottom: 10px;
+  margin-left: 760px;
+}
+
 text {
   color: #ff00b4;
 }
@@ -614,7 +629,7 @@ input#booking_time {
 footer {
   margin-top: auto;
   font-family: Verdana, serif;
-  min-height: 300px;
+  min-height: 400px;
   position: relative;
 }
 
@@ -671,7 +686,6 @@ footer .dots {
   -webkit-mask: radial-gradient(red 30%, transparent 0) 0 0/50px 50px;
           mask: radial-gradient(red 30%, transparent 0) 0 0/50px 50px;
 }
-
 
 .bottom-wrapper {
   position: relative;
