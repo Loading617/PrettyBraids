@@ -13,6 +13,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: Verdana, serif;
   background-size: cover;
   background-position: center;
@@ -33,19 +34,8 @@ body, html {
   height: 100%;
 }
 
-h1 {
-  font-size: 18px;
-  text-align: center;
-  color: #ff00ff;
-  margin-top: 10px;
-}
-
-h2 {
-  font-size: 18px;
-  text-align: center;
-  color: #ff00ff;
-  margin-bottom: 10px;
-  margin-left: 760px;
+text {
+  color: #ff00b4;
 }
 
 body::-webkit-scrollbar {
@@ -625,7 +615,7 @@ input#booking_time {
 footer {
   margin-top: auto;
   font-family: Verdana, serif;
-  min-height: 400px;
+  min-height: 300px;
   position: relative;
 }
 
@@ -683,7 +673,83 @@ footer .dots {
           mask: radial-gradient(red 30%, transparent 0) 0 0/50px 50px;
 }
 
+
 .bottom-wrapper {
   position: relative;
   height: 300px;
 }
+
+.email-container {
+      max-width: 600px;
+      margin: auto;
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    }
+
+    .header {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    .header img {
+      max-width: 120px;
+      margin-bottom: 15px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .content {
+      padding: 30px 20px;
+    }
+
+    .content h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .details {
+      background: #fef2f6;
+      padding: 20px;
+      border-left: 4px solid #ff69b4;
+      margin-top: 15px;
+      border-radius: 5px;
+    }
+
+    .details p {
+      margin: 6px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ff69b4;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+
+    .footer {
+      background: #f4f4f4;
+      text-align: center;
+      color: #ff69b4;
+      font-size: 12px;
+      padding: 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .content, .header, .footer {
+        padding: 15px;
+      }
+
+      .btn {
+        padding: 10px 20px;
+      }
+    }
