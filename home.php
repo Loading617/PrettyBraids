@@ -33,7 +33,9 @@
      <main style="display: flex">
      <main style="padding-top: 100px">
      <div class="image-container"></div>
-      <img src="" alt="Pic of Jessica" width="" height="" />
+      <img src=""
+      alt="Pic of Jessica"
+            />
       <?php echo"<h1 style="color: #ff00b4">Welcome to my Hair Booking Site!!</h1>"; ?>
       <?php echo"<h2 style="color: #ff00b4">Pretty Braids where we make Pretty Girls with Pretty Braids Feel Pretty!!</h2>"; ?>
       <?php echo"<h3 style="color: #ff00b4">Located in Columbia, SC</h3>"; ?>
@@ -41,7 +43,7 @@
   <footer>
     <div class="footer-container">
       <div class="footer-column">
-        <div class="footer-column"></div><?php echo"<h1>Connect with Us</h1>"; ?>
+        <div class="footer-column"></div><?php echo"<h4>Connect with Us</h4>"; ?>
         <ul>
           <li><a href="mailto:jessicalolitathebrand@gmail.com"><span class="lnr lnr-envelope"> jessicalolitathebrand@gmail.com</span></a></li>
           <li><a href="tel:+8035616053"><span class="lnr lnr-phone"> (803) 561-6053</span></a></li>
@@ -50,7 +52,7 @@
     </div>
     <div class="footer-container">
   <div class="footer-column">
-    <div class="footer-column"><?php echo"<h2>Keep Up with Us</h2>"; ?>
+    <div class="footer-column"><?php echo"<h5>Keep Up with Us</h5>"; ?>
     <div class="footer-container">
       <div class="footer-bottom">
         <div class="footer-column">
